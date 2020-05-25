@@ -1,11 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>ACME</title>
-</head>
-<body>
-   <!-- Página de produtos e promoções -->
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ACME</title>
+    <link href="./styles/index.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+
+      <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <img src="./assets/Capa1.jpg" style="width: 100%;" />
+        </div>
+
+        <div class="mySlides fade">
+          <img src="./assets/capa2.jpg" style="width: 100%;" />
+        </div>
+
+        <div class="dots">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+        </div>
+
+      </div>
+
+    </header>
+
+    <div>
+      ok
+    </div>
+  </body>
+
+  <script src="./backend/index.js"></script>
 </html>
