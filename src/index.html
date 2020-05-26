@@ -5,9 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ACME</title>
     <link href="./styles/index.css" rel="stylesheet">
+    <link href="./styles/global.css" rel="stylesheet">
   </head>
   <body>
     <header>
+      <img class="logo" src="./assets/logo.png" />
 
       <div class="slideshow-container">
 
@@ -16,7 +18,10 @@
         </div>
 
         <div class="mySlides fade">
-          <img src="./assets/capa2.jpg" style="width: 100%;" />
+          
+          <button>
+            <img  src="./assets/capa2.jpg" style="width: 100%;" />
+          </button>
         </div>
 
         <div class="dots">
@@ -28,9 +33,177 @@
 
     </header>
 
-    <div>
-      ok
-    </div>
+    <section class="container">
+
+      <article class="new">
+
+        <h2 class="new-title"> Nossas sugestões </h2>
+
+        <div class="new-boxes">
+
+          <div class="new-box">
+            <img src="assets/category_1.jpg" />
+            <div class="new-box-content">
+              <h3> Yoga e Pilates </h3>
+              <span> a partir de </span>
+              <div class="new-box-price">
+                <p> R$ 30,00 </p>
+              </div>
+              <button class="new-box-check">Confira ></button>
+            </div>
+          </div>
+
+          <div class="new-box">
+            <img src="assets/category_2.jpg" />
+            <div class="new-box-content">
+              <h3> Futebol e Vôlei </h3>
+              <span> a partir de </span>
+              <div class="new-box-price">
+                <p> R$ 80,00 </p>
+              </div>
+              <button class="new-box-check">Confira ></button>
+            </div>
+          </div>
+
+          <div class="new-box">
+            <img src="assets/category_3.jpg" />
+            <div class="new-box-content">
+              <h3> Tênis Nike </h3>
+              <span> a partir de </span>
+              <div class="new-box-price">
+                <p> R$ 90,00 </p>
+              </div>
+              <button class="new-box-check">Confira ></button>
+            </div>
+          </div>
+
+        </div>
+      </article>
+
+      <article class="categories">
+        
+
+        <div class="category-box">
+          <h3> Calçados Femininos </h3>
+          
+          <div class="category-items">
+
+            <div class="category-item">
+              <img src="./assets/fem_1.jpg" />
+            </div>
+  
+            <div class="category-item">
+              <img src="./assets/fem_2.jpg" />
+            </div>
+  
+            <div class="category-item">
+              <img src="./assets/fem_3.jpg" />
+            </div>
+
+            <div class="category-item">
+              <img src="./assets/fem_4.jpg" />
+            </div>
+
+          </div>
+        </div>
+
+        <div class="category-box">
+          <h3> Calçados Masculinos </h3>
+          
+          <div class="category-items">
+
+            <div class="category-item">
+              <img src="./assets/masc_1.jpg" />
+            </div>
+  
+            <div class="category-item">
+              <img src="./assets/masc_2.jpg" />
+            </div>
+  
+            <div class="category-item">
+              <img src="./assets/masc_3.jpg" />
+            </div>
+
+            <div class="category-item">
+              <img src="./assets/masc_4.jpg" />
+            </div>
+
+          </div>
+        </div>
+
+        <div class="category-box">
+          <h3> Artigos Esportivos </h3>
+          
+          <div class="category-items">
+
+            <div class="category-item">
+              <img src="./assets/esp_1.jpg" />
+            </div>
+  
+            <div class="category-item">
+              <img src="./assets/esp_2.jpg" />
+            </div>
+  
+            <div class="category-item">
+              <img src="./assets/esp_3.jpg" />
+            </div>
+
+            <div class="category-item">
+              <img src="./assets/esp_4.jpg" />
+            </div>
+
+          </div>
+        </div>
+
+      </article>
+      
+      <article class="brand">
+        <h3> Compre por marca </h3>
+
+        <div class="brands-content">
+          <img src="./assets/brand_1.jpg" class="brand-img">
+          <img src="./assets/brand_2.jpg" class="brand-img">
+          <img src="./assets/brand_3.jpg" class="brand-img">
+          <img src="./assets/brand_4.jpg" class="brand-img">
+          <img src="./assets/brand_5.jpg" class="brand-img">
+        </div>
+
+      </article>
+    </section>
+
+    <footer>
+       <div class="map">
+         <img src="./assets/map.jpg" />
+       </div>
+       <div class="contact">
+        <h3> Entre em contato conosco </h3>
+        <div class="contact-data">
+          <div class="data">
+            <div class="data-image">
+              <img src="./assets/icone_tel.png"/>
+            </div>
+            
+            <p> (13) 98726-0028</p>
+          </div>
+          <div class="data">
+            <div class="data-image">
+              <img src="./assets/icone_mail.png"/>
+            </div>
+            
+            <p> acme@contato.com </p>
+          </div>
+          <div class="data">
+            <div class="data-image">
+              <img src="./assets/icone_loc.png"/>
+            </div>
+            
+            <p> Rua Salgado, 00, Boqueirão - Santos </p>
+          </div>
+        </div>
+       </div>
+    </footer>
+
+
   </body>
 
   <script src="./backend/index.js"></script>
