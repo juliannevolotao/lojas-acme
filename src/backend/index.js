@@ -42,3 +42,7 @@ const currentSlide = (n) => {
 }
 
 showSlides(slideIndex);
+
+const toLogin = () => {
+  window.location = "/src/pages/login.html";
+}
