@@ -19,3 +19,7 @@ button {
   background-color: transparent;
   border: none;
 }
+
+textarea {
+  font-family: 'Roboto', sans-serif ;
+}

@@ -3,6 +3,7 @@ let login = {
  senha: 123456
 };
 
+
 const checkLogin = () => {
   let data = {
     code: Number(document.getElementById('code').value),
@@ -10,7 +11,7 @@ const checkLogin = () => {
   };
 
   if(data.code === login.id && data.password === login.senha) {
-    window.location = "/src/pages/adm.html";
+    window.location.href = "adm.html";
   }
   else{ 
     alert("Dados incorretos.")
